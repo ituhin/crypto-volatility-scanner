@@ -66,5 +66,7 @@ python3 main.py
 ```
 
 ## Sample
+this terminal background color is white on mac...
+
 ![screenshot](img/sample.png)
 
