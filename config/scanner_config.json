@@ -1,0 +1,43 @@
+{
+    "columns": [
+      {
+        "name": "1h Change",
+        "duration": 3600,
+        "threshold": 5,
+        "threshold2": 3
+      },
+      {
+        "name": "2h Change",
+        "duration": 7200,
+        "threshold": 10,
+        "threshold2": 5
+      },
+      {
+        "name": "4h Change",
+        "duration": 14400,
+        "threshold": 15,
+        "threshold2": 10
+      },
+      {
+        "name": "2d Change",
+        "duration": 172800,
+        "threshold": 20,
+        "threshold2": 15
+      }
+    ],
+    "volatility_calculation": {
+      "lookback_period": 3600,
+      "std_dev_multiplier": 2
+    },
+    "intervals": { 
+      "data_refresh": 300,
+      "display_refresh": 5 
+    },
+    "screen": {
+        "table": 5,
+        "table_items": 15
+    },
+    "ta":{
+        "price_intervals": ["1m", "5m"]
+    }
+  }
