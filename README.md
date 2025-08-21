@@ -29,7 +29,7 @@ pip install -r requirements.txt
       {...}
    ```
    duration - in seconds
-   threshold/threshold2 - it changes the background color of the cell when the volatility % value crosses that mark to get attention on that asset
+   threshold/threshold2 - it changes the background color of the cell when the volatility % value crosses that mark to highlight that asset
 
    ```
    "intervals": { 
